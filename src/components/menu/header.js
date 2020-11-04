@@ -67,7 +67,8 @@ export default function() {
           <div className='logo'>
               <div className='navbar-title navbar-item'>
                 <NavLink to="/">
-                 <span>Amado de Dios</span>
+                 <span className='amado'>Amado <span className='de'>de</span> <span className='dios'>Dios</span></span>
+                
                 </NavLink>
               </div>
           </div>
@@ -114,7 +115,7 @@ export default function() {
                     </div>
                     <div className='navbar-item'>
                       <NavLink to="/contact" onClick={() => btn_icon(!showmenu)}>
-                        Contact
+                        Libro de reclamaciones
                       </NavLink>
                     </div>
                   </div>
@@ -154,7 +155,7 @@ export default function() {
                         </div>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/contact">Contact</NavLink>
+                      <NavLink to="/contact">Libro de reclamaciones</NavLink>
                     </div>
                   </div>
                 </Breakpoint>

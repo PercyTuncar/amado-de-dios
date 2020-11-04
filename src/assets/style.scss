@@ -202,6 +202,8 @@ section{
     align-items: center;
     background: rgba(0,0,0,0);
     z-index: 999;
+    background: rgb(1, 19, 10);
+    position: fixed;
     .w-100-nav{
       margin: 0;
       width: 100%;
@@ -254,11 +256,12 @@ section{
 
     .logo{
       .navbar-item {
+        margin-top: 10px;
         position: relative;
         top: -4px;
         left: 0px;
         padding: 0;
-        width: 120px;
+        width: auto;
         border-bottom: none;
         a{
           padding: 0;
@@ -375,8 +378,20 @@ section{
         }
       }
 }
-.logo >span{
-  font-size: 60px;
+
+.amado{
+  color: #eee;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.dios{
+  background-color: #0FBF61;
+  color: #eee;
+  padding: 5px;
+  border-radius: 3px;
+}
+.de{
+  text-transform: lowercase;
 }
 /* disable click active */
 .navbar-item {  
@@ -548,7 +563,7 @@ section{
 }
 @media (max-height: 500px) {
   .slider-wrapper, .slide {
-    height: calc(100vh - 75px);
+    height: 600px;
   }    
 }
 @media (max-width: 640px) {

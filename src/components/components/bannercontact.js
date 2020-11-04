@@ -6,7 +6,7 @@ export default () => (
         <div className='row m-10-hor'>
 
           <div className='col-md-6'>
-            <img src='https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/team-united-29UVSFZ.JPG?alt=media&token=2944fa70-ee01-481f-9f86-1082e809d909' alt='imgbanner' className='w-100 border-radius'/>
+            <img src='https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/insignia.png?alt=media&token=ff1e043d-cc3f-45a8-b30e-68921dfa8bd5' alt='imgbanner' className='w-100 border-radius'/>
           </div>
           <div className='col-md-6 centered'>
             <div>
