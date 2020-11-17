@@ -68,9 +68,9 @@ export default () => {
         <h5>Name</h5>
         <input
           type="text"
-          name="name"
+          name="Nombre"
           id="name"
-          placeholder="Your name"
+          placeholder="Ingrese su nombre"
           ref={register({ required })}
           disabled={isSubmitting}
         />
@@ -93,13 +93,13 @@ export default () => {
       </label>
 
       <label htmlFor="question">
-        <h5>Message</h5>
+        <h5>Mensaje</h5>
         <textarea
           ref={register({ required })}
           name="question"
           id="question"
           rows="3"
-          placeholder="Your message"
+          placeholder="Escribe tu mensaje"
           disabled={isSubmitting}
         />
         {errors.question && (
@@ -109,7 +109,7 @@ export default () => {
 
       <div className="submit-wrapper">
         <button type="submit" disabled={isSubmitting}>
-          <span>Submit</span>
+          <span>Enviar</span>
         </button>
       </div>
     </form>
@@ -117,18 +117,18 @@ export default () => {
 
   return (
     <ListContainer>
-      <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'./img/contact.jpg'})`}}>
+      <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/male-school-teacher-standing-in-an-elementary-scho-KC35YSL.jpg?alt=media&token=3e9f246f-5ef8-4622-9856-a64a3919dddb'})`}}>
         <div className='mainbreadcumb'>
           <div className='container-fluid'>
             <div className='row m-10-hor'>
               <div className='col-md-6'>
-                <h1>Contact</h1>
+                <h1>Contacto</h1>
               </div>
               <div className='col-md-6'>
                 <div className='list'>
-                  <Link className='link' to="/home">Home</Link>
+                  <Link className='link' to="/home">Inicio</Link>
                   <span className='dash'>/</span>
-                  <span>Contact</span>
+                  <span>Libro de reclamaciones</span>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default () => {
 
           <div className='col-md-6'>
             <div className="form-side">
-              <h2>Get in Touch</h2>
+              <h2>Amado de DIos</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Architecto cupiditate aperiam neque</p>
               {submitted ? showThankYou : showForm}
@@ -150,27 +150,27 @@ export default () => {
 
           <div className='col-md-6 pl-md-5'>
            <div className="text-side">
-             <h2>Contact Information</h2>
+             <h2>Maás inormación</h2>
               <p>Vestibulum volutpat, lacus a ultrices sagittis, 
               mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. 
               Phasellus pede arcu, dapibus eu, fermentum et, 
               dapibus sed, urna.</p>
 
               <div className='address'>
-                <div className='heading'>Our Office</div>
+                <div className='heading'>Ubicación</div>
                 <div className='list'>
                   <i className="fa fa-map-marker"></i>
-                  70 Washington Square South New York, NY 10012, United States
+                  San Borja, Lima - Peru
                 </div>
                 <div className='list'>
                   <i className="fa fa-envelope-o"></i>
                   <a href='mailto:Contact_info@slickz.com' target='_blank' rel='noopener noreferrer'>
-                    Contact_info@slickz.com
+                    Contacto@@amadodedios.edu.pe
                   </a>
                 </div>
                 <div className='list'>
                   <i className="fa fa-phone"></i>
-                  +92 423 567 7
+                  +92 423 567 745
                 </div>
               </div>
            </div>

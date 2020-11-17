@@ -87,12 +87,12 @@ export default function() {
                     </div>
                     <div className='navbar-item'>
                       <NavLink to="/team" onClick={() => btn_icon(!showmenu)}>
-                        Team
+                        Historia
                       </NavLink>
                     </div>
                     <div className='navbar-item'>
                       <NavLink to="/price" onClick={() => btn_icon(!showmenu)}>
-                        Precio
+                        Valores
                       </NavLink>
                     </div>
                     <div className='navbar-item'>
@@ -107,7 +107,7 @@ export default function() {
                             <div className="dropdown" onClick={closeMenu}>
                               <NavLink to="/" onClick={() => btn_icon(!showmenu)}>Inicial</NavLink>
                               <NavLink to="/home1" onClick={() => btn_icon(!showmenu)}>Primaria</NavLink>
-                              <NavLink to="/home2" onClick={() => btn_icon(!showmenu)}>Secundaria</NavLink>
+                              <NavLink to="/" onClick={() => btn_icon(!showmenu)}>Secundaria</NavLink>
                             </div>
                           </div>
                         )}
@@ -131,10 +131,10 @@ export default function() {
                       <NavLink to="/about">Nosotros</NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/team">Team</NavLink>
+                      <NavLink to="/team">Historia</NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/price">Pricing</NavLink>
+                      <NavLink to="/price">Valores</NavLink>
                     </div>
                     <div className='navbar-item'>
                         <div ref={ref}>
@@ -146,7 +146,7 @@ export default function() {
                               <div className="dropdown" onClick={closeMenu}>
                                 <NavLink to="/">Inicial</NavLink>
                                 <NavLink to="/home1">Primaria</NavLink>
-                                <NavLink to="/home2">Secundaria</NavLink>
+                                <NavLink to="/">Secundaria</NavLink>
                               </div>
                             </div>
                           )}

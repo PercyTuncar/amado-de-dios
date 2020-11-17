@@ -19,9 +19,9 @@ export default () => (
             Contacto:
           </div>
           <div className='content'>
-             <div className='link'>+51 987654321</div>
-             <div className='link'>info@amadodedios.edu.pe</div>
-             <div className='link'>contacto@amadodedios.edu.pe</div>
+        
+             <div className='link'>iepamadodedios@hotmail.com</div>
+            
           </div>
         </div>
       </div>
@@ -32,19 +32,11 @@ export default () => (
             Siguenos en:
           </div>
           <div className='content'>
-            <p>Todas nuestras redes sociales</p>
+            <p>Facebook</p>
             <div className='socialicon'>
               <i className="fa fa-facebook-f"></i>
             </div>
-            <div className='socialicon'>
-              <i className="fa fa-linkedin"></i>
-            </div>
-            <div className='socialicon'>
-              <i className="fa fa-twitter"></i>
-            </div>
-            <div className='socialicon'>
-              <i className="fa  fa-instagram"></i>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -52,13 +44,13 @@ export default () => (
     <div className='subfooter'>
       <div className='row m-10-hor'>
         <div className='col-md-6'>
-          <div className='content'>© Copyrights 2020 <span className='font-weight-bold'>Amado de Dios</span> Todos los derechos reservados.</div>
+          <div className='content'>© Copyrights 2020 - 2021 <span className='font-weight-bold'>Amado de Dios</span> Todos los derechos reservados.</div>
         </div>
         <div className='col-md-6'>
           <div className='content-right'>
-            Echo con
+            Amado de Dios
             <i className="fa fa-heart text-gradient"></i>
-            por Percy Tuncar
+            
           </div>
         </div>
       </div>

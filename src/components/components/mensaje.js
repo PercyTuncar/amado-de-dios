@@ -29,7 +29,7 @@ export default () => (
 
           <div className="col-md-6 centered p-md-5 pt-5 pb-5">
             <div>
-              <div className="subheading">January 22, 2020</div>
+              <div className="subheading">.....................</div>
               <div className="heading">
                 Mensaje de la directora
               </div>
@@ -47,7 +47,7 @@ export default () => (
 
               </p>
               <Link className='btn' to="">
-                <span>More Detail</span>
+                <span>Sober nosotros</span>
               </Link>
             </div>
           </div>

@@ -7,24 +7,20 @@ const content = [
     title: "Bienvenidos a la familia amadina!",
     description:
       "Somos una institución educativa con 29 años de experiencia brindando un Servicio Educativo que promueve el desarrollo integral y pleno de nuestros estudiantes",
-    button: "Leer más",
-    link: "//google.com",
     image: "https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/school-kids-studying-in-the-classroom-at-school-YV4SJFQ.jpg?alt=media&token=62019fb1-fc72-40ea-a83b-38c1167412d3"
   },
   {
     title: "Nuestra misión institucional",
     description:
-      "Lograr que todas y todos los estudiantes de la I.E.P. culminen la escolaridad de los niveles de inicial, primaria y secundaria.",
-    button: "Leer más",
-    link: "//google.com",
+      "Lograr que todas y todos los estudiantes de la I.E.P. culminen la escolaridad de los niveles de inicial, primaria y secundaria exitosamente para convertirse en ciudadanos que aporten a la sociedad y forjen un mejor futuro.",
+  
     image: "https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/group-of-school-kids-raising-hands-in-classroom-PTEJETQ.jpg?alt=media&token=5a47606d-4375-417a-a1b3-7a1c32ce4e53"
   },
   {
     title: "Nuestra visión compartida",
     description:
       "Ser reconocidos como una IEP que contribuye a que todos nuestros estudiantes desarrollen su potencial desde el nivel inicial hasta el nivel secundario.",
-    button: "Leer más",
-    link: "https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/schoolkids-raising-their-hands-in-classroom-8UVQRHU.jpg?alt=media&token=8d6ca77e-4e21-4f55-97a0-71f036db46ba",
+   
     image: "https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/schoolkids-raising-their-hands-in-classroom-8UVQRHU.jpg?alt=media&token=8d6ca77e-4e21-4f55-97a0-71f036db46ba"
   }
 ];
@@ -40,11 +36,13 @@ export default () => (
                 <div className="inner">
                   <h1>{item.title}</h1>
                   <p>{item.description}</p>
-                  <button onClick={()=> window.open(item.link, "_blank")}>
-                    <span>
-                      {item.button}
-                    </span>
-                  </button>
+               {/*
+                     <button onClick={()=> window.open(item.link, "_blank")}>
+                     <span>
+                       {item.button}
+                     </span>
+                   </button> 
+               */ }
                 </div>
               </div>
             ))}

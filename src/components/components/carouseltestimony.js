@@ -83,7 +83,7 @@ export default class Responsive extends Component {
                   "Quiero agradecer al Colegio Amado de dios por haber sido mi primer lugar de enseñanza, donde los profesores motivan las mejores capacidades de cada uno.
                   </p>
                   <div className="bytesti">
-                  Pedro Aramburu
+  
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default class Responsive extends Component {
                   "Estudiar en la escuela Amado de Dios ha sido una experiencia estimulante. Con un programa escolar enfocado en las ciencias humanas, ellos impulsan a los estudiantes al pensamiento crítico y la creatividad, haciendo de nosotros, los ex alumnos, verdaderos agentes y líderes de cambio".
                   </p>
                   <div className="bytesti">
-                  Pedro Aramburu
+                 
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default class Responsive extends Component {
                   Agradezco al Colegio Amado de Dios por la formación cultural y la preparación académica que he recibido durante la primera etapa de mis estudios. La experiencia de compartir otras culturas y aprender con excelentes maestros, fue fundamental en mi formación."
                   </p>
                   <div className="bytesti">
-                  Anna Sofia Pisani
+                 
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default class Responsive extends Component {
 
                   </p>
                   <div className="bytesti">
-                    Lauria, Guest
+            
                   </div>
                 </div>
               </div>

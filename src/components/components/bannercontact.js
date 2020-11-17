@@ -24,7 +24,7 @@ export default () => (
                   <li>Superación personal</li>
                 </ul>
               <Link className='btn' to="/contact">
-                <span>Leer más</span>
+                <span>SObre nosotros</span>
               </Link>
             </div>
           </div>
