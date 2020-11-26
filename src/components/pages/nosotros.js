@@ -17,7 +17,7 @@ const Item = posed.section({
 
 export default () => (
 <ListContainer>
-  <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/male-school-teacher-standing-in-an-elementary-scho-KC35YSL.jpg?alt=media&token=3e9f246f-5ef8-4622-9856-a64a3919dddb'})`}}>
+  <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Ni%C3%B1os-estudiando.webp?alt=media&token=c118c9af-2214-4ced-901c-0f3e9066176f'})`}}>
     <div className='mainbreadcumb'>
       <div className='container-fluid'>
         <div className='row m-10-hor'>
@@ -47,7 +47,7 @@ export default () => (
             amadina!
             </div>
             <div className='col-md-10'>
-            <img src='https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/insignia.png?alt=media&token=ff1e043d-cc3f-45a8-b30e-68921dfa8bd5' alt='imgbanner' className='w-100 border-radius'/>
+            <img src='https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/insignia-min.webp?alt=media&token=8fc185f6-3835-4e32-95c5-49fe66418f74' alt='imgbanner' className='w-100 border-radius'/>
           </div>
           </div>
 
@@ -83,7 +83,7 @@ export default () => (
         <div className='row m-10-hor'>
 
           <div className="col-md-6 px-0">
-            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/happy-caucasian-boy-in-graduation-cap-pointing-his-H6WR57A.jpg?alt=media&token=996da7a7-f6ed-409c-befb-08eeb8b7d558" className="imgslickz" alt="#"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/graduacion-de-colegio.webp?alt=media&token=232a3f70-f568-40b2-a687-bc9367cf0f80" className="imgslickz" alt="#"/>
           </div>
 
           <div className="col-md-6 centered p-md-5 pt-5">
@@ -137,7 +137,7 @@ export default () => (
           </div>
 
           <div className="col-md-6 px-0">
-            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/picture-of-business-meeting-in-conference-room-29G4LQD.jpg?alt=media&token=273024de-5988-433c-bc57-02370e41820a" className="imgslickz" alt="#"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Profesor-en-clases.webp?alt=media&token=e8e21434-803a-42c3-b90d-b0fa5ef777a4" className="imgslickz" alt="#"/>
           </div>
 
         </div>

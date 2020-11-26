@@ -5,6 +5,7 @@ import posed from 'react-pose';
 import Testimony from '../components/carouseltestimony';
 import Footer from '../components/footer';
 
+
 const ListContainer = posed.div({
   enter: { staggerChildren: 20 },
   exit: { staggerChildren: 20, staggerDirection: 0 }
@@ -15,7 +16,10 @@ const Item = posed.section({
   exit: { y: 5, opacity: 0 }
 });
 
-
+const style={
+  textAlign:'center',
+  marginTop:'50px'
+}
 const URL = "https://jsonplaceholder.typicode.com/posts";
 const required = "This field is required";
 
@@ -117,12 +121,12 @@ export default () => {
 
   return (
     <ListContainer>
-      <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/male-school-teacher-standing-in-an-elementary-scho-KC35YSL.jpg?alt=media&token=3e9f246f-5ef8-4622-9856-a64a3919dddb'})`}}>
+      <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Profesor-en-clases.webp?alt=media&token=e8e21434-803a-42c3-b90d-b0fa5ef777a4'})`}}>
         <div className='mainbreadcumb'>
           <div className='container-fluid'>
             <div className='row m-10-hor'>
               <div className='col-md-6'>
-                <h1>Contacto</h1>
+                <h1>Libro de reclamaciones</h1>
               </div>
               <div className='col-md-6'>
                 <div className='list'>
@@ -135,47 +139,42 @@ export default () => {
           </div>
         </div>
       </Item>
+
       <Item className='container-fluid'>
         <div className='row m-10-hor'>
 
           <div className='col-md-6'>
             <div className="form-side">
-              <h2>Amado de DIos</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Architecto cupiditate aperiam neque</p>
-              {submitted ? showThankYou : showForm}
-              {errors && errors.submit && showSubmitError(errors.submit.message)}
+              <h2>Inicial y primaria</h2>
+              <p>Av Aviación Mz B Lt 26 Urb Papa Juan XXIII San Borja</p>
+              <ul>
+                <li>RD de funcionamiento nivel Inicial N° 000482</li>
+                <li>RD de funcionamiento nivel Primaria N° 00155</li>
+              </ul>
+                <div class="btn" onClick={()=> window.open("//forms.gle/pBZk3XCLTpbPfWB26", "_blank")}>
+                  <span>Ver libro de reclamaciones</span>
+                </div>
             </div>
           </div>
 
           <div className='col-md-6 pl-md-5'>
-           <div className="text-side">
-             <h2>Maás inormación</h2>
-              <p>Vestibulum volutpat, lacus a ultrices sagittis, 
-              mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. 
-              Phasellus pede arcu, dapibus eu, fermentum et, 
-              dapibus sed, urna.</p>
-
-              <div className='address'>
-                <div className='heading'>Ubicación</div>
-                <div className='list'>
-                  <i className="fa fa-map-marker"></i>
-                  San Borja, Lima - Peru
+          <div className="form-side">
+              <h2>Secundaria</h2>
+              <p>Av Aviación Mz B Lt 26 Urb Papa Juan XXIII San Borja</p>
+              <ul>
+                <li>RD de funcionamiento nivel Secundaria N° 00155</li>
+              </ul>
+              <div class="btn" onClick={()=> window.open("//forms.gle/pBZk3XCLTpbPfWB26", "_blank")}>
+                  <span>Ver libro de reclamaciones</span>
                 </div>
-                <div className='list'>
-                  <i className="fa fa-envelope-o"></i>
-                  <a href='mailto:Contact_info@slickz.com' target='_blank' rel='noopener noreferrer'>
-                    Contacto@@amadodedios.edu.pe
-                  </a>
-                </div>
-                <div className='list'>
-                  <i className="fa fa-phone"></i>
-                  +92 423 567 745
-                </div>
-              </div>
-           </div>
+            </div>
           </div>
-
+        </div>
+        <div className='col-md-12 pl-md-5 center' style={style}>
+        <h4>Más información</h4>
+        <p>Señor padre de familia los reportes serán respondidos en la brevedad 
+          posible con la finalidad de hacer prevalecer el
+          bienestar de toda la comunidad Amadina. </p>
         </div>
       </Item>
 

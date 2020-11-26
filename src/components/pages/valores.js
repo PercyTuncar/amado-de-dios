@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 
 export default () => (
 <div>
-  <section className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/group-of-students-learning-in-classroom-PHLQZRZ.jpg?alt=media&token=0a74012d-3921-4755-b4ac-45905b94f34f'})`}}>
+  <section className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/graduacion-de-colegio.webp?alt=media&token=232a3f70-f568-40b2-a687-bc9367cf0f80'})`}}>
     <div className='mainbreadcumb'>
       <div className='container-fluid'>
         <div className='row m-10-hor'>
@@ -41,7 +41,7 @@ export default () => (
                Compartimos con todas las instituciones 
                educativas los principios de: ética, 
                equidad, inclusión, democracia, interculturalidad, conciencia
-                ambiental, creatividad e innovación, valores que ayuden a regular la convivencia. 
+                ambiental, creatividad e innovación, valores que ayuden a regular la sana convivencia. 
               </p>
             </div>
           </div>

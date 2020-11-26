@@ -11,7 +11,10 @@ class CustomSlide extends Component {
     );
   }
 }
-
+const center={
+    textAlign:'center',
+    fontSize: '25px'
+}
 export default class Responsive extends Component {
   render() {
     var settings = {
@@ -69,18 +72,21 @@ export default class Responsive extends Component {
       ]
     };
     return (
-    <section className='container-fluid  wraper-testimony' 
-    style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Hombres-empresarios.webp?alt=media&token=9faaa6b4-dddd-442e-92ee-d2395df1a792'})`}}>
+    <section className='container-fluid ' 
+    style={{backgroundImage: `url(${''})`}}>
+       <div className='heading' style={center}>Objetivos Planteados en el PEI
+           </div>
       <div className='row m-10-hor'>
         <div className='testimony'>
           <Slider {...settings}>
 
             <CustomSlide className='itm' index={1}>
               <div className='blockquote'>
-                <div className="fa"></div>
+        
                 <div className="conesti">
                   <p>
-                  "Quiero agradecer al Colegio Amado de dios por haber sido mi primer lugar de enseñanza, donde los profesores motivan las mejores capacidades de cada uno.
+                  1. Implementar el taller de francés para los estudiantes de la IEP para que logren un manejo básico de ese idioma.
+(Al 2021 el 100% de los alumnos de 2° de primaria a 5° de secundaria logren un manejo básico de idioma francés)
                   </p>
                   <div className="bytesti">
   
@@ -91,10 +97,11 @@ export default class Responsive extends Component {
 
             <CustomSlide className='itm' index={2}>
               <div className='blockquote'>
-                <div className="fa"></div>
+        
                 <div className="conesti">
                   <p>
-                  "Estudiar en la escuela Amado de Dios ha sido una experiencia estimulante. Con un programa escolar enfocado en las ciencias humanas, ellos impulsan a los estudiantes al pensamiento crítico y la creatividad, haciendo de nosotros, los ex alumnos, verdaderos agentes y líderes de cambio".
+                  2. Continuar generando las condiciones que garanticen el acceso y permanencia en el sistema educativo.
+(Al 2021 lograr una retención interanual del 100% con respecto al año anterior)
                   </p>
                   <div className="bytesti">
                  
@@ -105,10 +112,11 @@ export default class Responsive extends Component {
 
             <CustomSlide className='itm' index={3}>
               <div className='blockquote'>
-                <div className="fa"></div>
+        
                 <div className="conesti">
                   <p>
-                  Agradezco al Colegio Amado de Dios por la formación cultural y la preparación académica que he recibido durante la primera etapa de mis estudios. La experiencia de compartir otras culturas y aprender con excelentes maestros, fue fundamental en mi formación."
+                  3. Capacitar a los docentes en las rúbricas de evaluación.
+(Al 2021 lograr que el 100% de los docentes capacitados demuestren su eficacia en la evaluación con rúbricas)
                   </p>
                   <div className="bytesti">
                  
@@ -119,10 +127,11 @@ export default class Responsive extends Component {
 
             <CustomSlide className='itm' index={4}>
               <div className='blockquote'>
-                <div className="fa"></div>
+        
                 <div className="conesti">
                   <p>
-                  Agradezco al Colegio Amado de Dios por la formación cultural y la preparación académica que he recibido durante la primera etapa de mis estudios. La experiencia de compartir otras culturas y aprender con excelentes maestros, fue fundamental en mi formación."
+                  4. Fortalecer los espacios que garanticen el apoyo a los padres de familia para mejorar el proceso de aprendizaje.
+(Al 2021 realizar 5 escuelas de Familia al año)
 
                   </p>
                   <div className="bytesti">
@@ -131,7 +140,35 @@ export default class Responsive extends Component {
                 </div>
               </div>
             </CustomSlide>
+            <CustomSlide className='itm' index={4}>
+              <div className='blockquote'>
+        
+                <div className="conesti">
+                  <p>
+                  5. Fortalecer a los docentes en el manejo los espacios que garanticen una adecuada gestión de la convivencia escolar.
+(Al 2021 todos los docentes de la IEP manejen estrategias de resolución de conflicto)
 
+                  </p>
+                  <div className="bytesti">
+            
+                  </div>
+                </div>
+              </div>
+            </CustomSlide>
+            <CustomSlide className='itm' index={4}>
+              <div className='blockquote'>
+        
+                <div className="conesti">
+                  <p>
+                  6. Mejorar los aprendizajes de los estudiantes a través de la capacitación de nuestros docentes en los enfoques curriculares para lograr el nivel del logro previsto.
+(Al 2021 mejora de los aprendizajes de los alumnos de primaria en un 16% /Al 2021 mejora de los aprendizajes de los alumnos de secundaria en un 27%)
+                  </p>
+                  <div className="bytesti">
+            
+                  </div>
+                </div>
+              </div>
+            </CustomSlide>
           </Slider>
         </div>
       </div>

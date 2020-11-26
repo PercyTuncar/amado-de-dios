@@ -31,13 +31,16 @@ export default () => (
           <div className='heading'>
             Siguenos en:
           </div>
-          <div className='content'>
+
+          <div  onClick={()=> window.open("//www.facebook.com/ColegioAmadoDeDios", "_blank")}>
+            <div className='content'>
             <p>Facebook</p>
             <div className='socialicon'>
               <i className="fa fa-facebook-f"></i>
             </div>
-           
           </div>
+                  </div>
+         
         </div>
       </div>
     </div>

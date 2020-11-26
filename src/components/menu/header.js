@@ -81,17 +81,17 @@ export default function() {
                       <NavLink to="/">Inicio</NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/about" onClick={() => btn_icon(!showmenu)}>
+                      <NavLink to="/nosotros" onClick={() => btn_icon(!showmenu)}>
                         Nosotros
                       </NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/team" onClick={() => btn_icon(!showmenu)}>
+                      <NavLink to="/historia" onClick={() => btn_icon(!showmenu)}>
                         Historia
                       </NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/price" onClick={() => btn_icon(!showmenu)}>
+                      <NavLink to="/valores" onClick={() => btn_icon(!showmenu)}>
                         Valores
                       </NavLink>
                     </div>
@@ -105,17 +105,17 @@ export default function() {
                         {openMenu && (
                           <div className='item-dropdown'>
                             <div className="dropdown" onClick={closeMenu}>
-                              <NavLink to="/" onClick={() => btn_icon(!showmenu)}>Inicial</NavLink>
-                              <NavLink to="/home1" onClick={() => btn_icon(!showmenu)}>Primaria</NavLink>
-                              <NavLink to="/" onClick={() => btn_icon(!showmenu)}>Secundaria</NavLink>
+                              <NavLink to="/inicial" onClick={() => btn_icon(!showmenu)}>Inicial</NavLink>
+                              <NavLink to="/primaria" onClick={() => btn_icon(!showmenu)}>Primaria</NavLink>
+                              <NavLink to="/secundaria" onClick={() => btn_icon(!showmenu)}>Secundaria</NavLink>
                             </div>
                           </div>
                         )}
                       </div>
                     </div>
-                    <div className='navbar-item'>
-                      <NavLink to="/contact" onClick={() => btn_icon(!showmenu)}>
-                        Libro de reclamaciones
+                    <div className='navbar-item menos'>
+                      <NavLink to="/librodereclamaciones" onClick={() => btn_icon(!showmenu)}>
+                     <span className='menos'> Libro de reclamaciones</span>
                       </NavLink>
                     </div>
                   </div>
@@ -128,13 +128,13 @@ export default function() {
                       <NavLink to="/">Inicio</NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/about">Nosotros</NavLink>
+                      <NavLink to="/nosotros">Nosotros</NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/team">Historia</NavLink>
+                      <NavLink to="/historia">Historia</NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/price">Valores</NavLink>
+                      <NavLink to="/valores">Valores</NavLink>
                     </div>
                     <div className='navbar-item'>
                         <div ref={ref}>
@@ -144,9 +144,9 @@ export default function() {
                             {openMenu && (
                             <div className='item-dropdown'>
                               <div className="dropdown" onClick={closeMenu}>
-                                <NavLink to="/">Inicial</NavLink>
-                                <NavLink to="/home1">Primaria</NavLink>
-                                <NavLink to="/">Secundaria</NavLink>
+                                <NavLink to="/inicial">Inicial</NavLink>
+                                <NavLink to="/primaria">Primaria</NavLink>
+                                <NavLink to="/secundaria">Secundaria</NavLink>
                               </div>
                             </div>
                           )}
@@ -154,8 +154,8 @@ export default function() {
                           
                         </div>
                     </div>
-                    <div className='navbar-item'>
-                      <NavLink to="/contact">Libro de reclamaciones</NavLink>
+                    <div className='navbar-item menos'>
+                      <NavLink to="/librodereclamaciones"><span className='menos'> Libro de reclamaciones</span></NavLink>
                     </div>
                   </div>
                 </Breakpoint>

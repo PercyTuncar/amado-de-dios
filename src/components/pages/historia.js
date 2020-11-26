@@ -23,7 +23,7 @@ const img2 = {
 
 export default () => (
 <ListContainer>
-  <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/insignia.png?alt=media&token=ff1e043d-cc3f-45a8-b30e-68921dfa8bd5'})`}}>
+  <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/utiles-escolaeres.webp?alt=media&token=154d3df9-c27f-4eb5-a720-86f832de6d6c'})`}}>
     <div className='mainbreadcumb'>
       <div className='container-fluid'>
         <div className='row m-10-hor'>
@@ -94,7 +94,7 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="./img/team/team1.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/aula-de-clase.webp?alt=media&token=a732ba70-c636-4a0f-8f71-822acf61b15d"
                   className="img-fluid"
                   alt="Imageteam"
                 />
@@ -104,15 +104,10 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
                 <div className='title'>Descripoción</div>
               </div>
               <div className='icon'>
-                 <span onClick={()=> window.open("//facebook.com/", "_blank")}>
+                 <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>
                   <i className="fa fa-facebook" aria-hidden="true"></i>
                 </span>
-                <span onClick={()=> window.open("//linkedin.com/", "_blank")}>
-                  <i className="fa fa-linkedin" aria-hidden="true"></i>
-                </span>
-                <span onClick={()=> window.open("//twitter.com/", "_blank")}>
-                  <i className="fa fa-twitter" aria-hidden="true"></i>
-                </span>
+            
               </div>
               </div>
             </div>
@@ -125,7 +120,7 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="./img/team/team2.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/profesor-en-clase.webp?alt=media&token=695dc88e-8f8a-4770-a156-5b17a915f498"
                   className="img-fluid"
                   alt="Imageteam"
                 />
@@ -135,15 +130,10 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
                 <div className='title'>Descripoción</div>
               </div>
               <div className='icon'>
-                 <span onClick={()=> window.open("//facebook.com/", "_blank")}>
+                 <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>
                   <i className="fa fa-facebook" aria-hidden="true"></i>
                 </span>
-                <span onClick={()=> window.open("//linkedin.com/", "_blank")}>
-                  <i className="fa fa-linkedin" aria-hidden="true"></i>
-                </span>
-                <span onClick={()=> window.open("//twitter.com/", "_blank")}>
-                  <i className="fa fa-twitter" aria-hidden="true"></i>
-                </span>
+              
               </div>
               </div>
             </div>
@@ -156,7 +146,7 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="./img/team/team3.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/alumnos-en-clases.webp?alt=media&token=9c8fbf2b-3b40-4344-b30a-57f2def51f46"
                   className="img-fluid"
                   alt="Imageteam"
                 />
@@ -166,15 +156,10 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
                 <div className='title'>Descripoción</div>
               </div>
               <div className='icon'>
-                 <span onClick={()=> window.open("//facebook.com/", "_blank")}>
+                 <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>
                   <i className="fa fa-facebook" aria-hidden="true"></i>
                 </span>
-                <span onClick={()=> window.open("//linkedin.com/", "_blank")}>
-                  <i className="fa fa-linkedin" aria-hidden="true"></i>
-                </span>
-                <span onClick={()=> window.open("//twitter.com/", "_blank")}>
-                  <i className="fa fa-twitter" aria-hidden="true"></i>
-                </span>
+           
               </div>
               </div>
             </div>
@@ -187,7 +172,7 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="./img/team/team4.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/alumnos-ciencia.webp?alt=media&token=c0438200-9398-4e29-8cf2-514120bb099e"
                   className="img-fluid"
                   alt="Imageteam"
                 />
@@ -197,15 +182,10 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
                 <div className='title'>Descripoción</div>
               </div>
               <div className='icon'>
-                 <span onClick={()=> window.open("//facebook.com/", "_blank")}>
+                 <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>
                   <i className="fa fa-facebook" aria-hidden="true"></i>
                 </span>
-                <span onClick={()=> window.open("//linkedin.com/", "_blank")}>
-                  <i className="fa fa-linkedin" aria-hidden="true"></i>
-                </span>
-                <span onClick={()=> window.open("//twitter.com/", "_blank")}>
-                  <i className="fa fa-twitter" aria-hidden="true"></i>
-                </span>
+                
               </div>
               </div>
             </div>

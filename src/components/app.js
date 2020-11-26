@@ -4,13 +4,14 @@ import { Router, Location, Redirect } from '@reach/router';
 import ScrollToTopBtn from './menu/ScrollToTop';
 import Header from './menu/header';
 import Home from './pages/home';
-import Home1 from './pages/home1';
-import Home2 from './pages/home2';
-import About from './pages/about';
-import Team from './pages/team';
-import Price from './pages/price';
+import Inicial from './pages/inicial';
+import Home1 from './pages/primaria';
+import Home2 from './pages/secundaria';
+import About from './pages/nosotros';
+import Team from './pages/historia';
+import Price from './pages/valores';
 import Portofolio from './pages/portofolio';
-import Contact from './pages/contact';
+import Contact from './pages/librodereclamaciones';
 
 const RouteContainer = posed.div({
   enter: { opacity: 1, delay: 300, beforeChildren: 300 },
@@ -44,13 +45,14 @@ export default () => (
         <Home exact path="/">
           <Redirect to="/home" />
         </Home>
-        <Home1 path="/home1" />
-        <Home2 path="/home2" />
-        <About path="/about" />
-        <Team path="/team" />
-        <Price path="/price" />
+        <Home1 path="/primaria" />
+        <Inicial path="/inicial" />
+        <Home2 path="/secundaria" />
+        <About path="/nosotros" />
+        <Team path="/historia" />
+        <Price path="/valores" />
         <Portofolio path="/portofolio" />
-        <Contact path="/contact" />
+        <Contact path="/librodereclamaciones" />
         </ScrollTop>
       </PosedRouter>
     <ScrollToTopBtn />

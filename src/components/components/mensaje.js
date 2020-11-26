@@ -23,13 +23,13 @@ export default () => (
         <div className='row m-10-hor'>
 
           <div className="col-md-6 px-0">
-            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/business-woman-explaining-plan-of-work-in-conferen-TEQY3JM.JPG?alt=media&token=5c96bee2-087c-48de-abd3-33d0b4b792d6" className="imgslickz" alt="#"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Mujer-speaker.webp?alt=media&token=b77a4f3f-cc1d-4157-a690-21ee1f9fe2ca" className="imgslickz" alt="#"/>
           </div>
 
 
           <div className="col-md-6 centered p-md-5 pt-5 pb-5">
             <div>
-              <div className="subheading">.....................</div>
+              <div className="subheading"></div>
               <div className="heading">
                 Mensaje de la directora
               </div>
@@ -46,8 +46,8 @@ export default () => (
                  potencialidades, capacidades, actitudes y valores fundamentales.
 
               </p>
-              <Link className='btn' to="">
-                <span>Sober nosotros</span>
+              <Link className='btn' to="/about">
+                <span>Sobre nosotros</span>
               </Link>
             </div>
           </div>
