@@ -1489,17 +1489,17 @@ footer{
 .four_zero_four_bg{
  
  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    height: 400px;
+    height: 450px;
     background-position: center;
  }
  
  
  .four_zero_four_bg h1{
- font-size:80px;
+ font-size:70px;
  }
  
   .four_zero_four_bg h3{
-			 font-size:80px;
+			 font-size:60px;
 			 }
 			 
 			 .link_404{			 
@@ -1512,3 +1512,32 @@ color: #fff;
   body{
     background:#fff
   }
+
+
+
+  @media screen and (max-width: 1000px) {
+ 
+    .four_zero_four_bg h1{
+      font-size:50px;
+      }
+      .four_zero_four_bg h3{
+        font-size:30px;
+        }
+    
+    
+    
+    }
+
+  @media screen and (max-width: 500px) {
+
+ 
+.four_zero_four_bg h1{
+  font-size:40px;
+  }
+  .four_zero_four_bg h3{
+    font-size:20px;
+    }
+
+
+
+}
