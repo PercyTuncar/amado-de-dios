@@ -12,6 +12,7 @@ import Team from './pages/historia';
 import Price from './pages/valores';
 import Portofolio from './pages/portofolio';
 import Contact from './pages/librodereclamaciones';
+import Error from './pages/error';
 
 const RouteContainer = posed.div({
   enter: { opacity: 1, delay: 300, beforeChildren: 300 },
@@ -39,7 +40,12 @@ const PosedRouter = ({ children }) => (
 
 export default () => (
   <div className="wraper">
-    <Header/>
+ 
+<Error/>
+  {
+  
+  
+   /* <Header/>
       <PosedRouter>
       <ScrollTop path="/">
         <Home exact path="/">
@@ -55,6 +61,6 @@ export default () => (
         <Contact path="/librodereclamaciones" />
         </ScrollTop>
       </PosedRouter>
-    <ScrollToTopBtn />
+    <ScrollToTopBtn />*/}
   </div>
 );
