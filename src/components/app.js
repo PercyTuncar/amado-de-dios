@@ -41,11 +41,8 @@ const PosedRouter = ({ children }) => (
 export default () => (
   <div className="wraper">
  
-<Error/>
-  {
-  
-  
-   /* <Header/>
+
+<Header/>
       <PosedRouter>
       <ScrollTop path="/">
         <Home exact path="/">
@@ -61,6 +58,9 @@ export default () => (
         <Contact path="/librodereclamaciones" />
         </ScrollTop>
       </PosedRouter>
-    <ScrollToTopBtn />*/}
+    <ScrollToTopBtn />
+  
+  {/* <Error/>*/}
+  
   </div>
 );

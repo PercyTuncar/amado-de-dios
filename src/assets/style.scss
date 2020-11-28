@@ -37,8 +37,8 @@ $color_more: #0FBF61;
 
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Arvo');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css');
+// @import url('https://fonts.googleapis.com/css?family=Arvo');
+// @import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css');
  
 /*general*/
 html {scroll-behavior: smooth;}
@@ -1477,67 +1477,65 @@ footer{
 
 // Error ------------------------------------------------
 
-.page_404{ 
-  padding:40px 0; 
-  background:#fff; 
-  font-family: 'Arvo', serif;
-  color: #363636;
-}
+// .page_404{ 
+//   padding:40px 0; 
+//   background:#fff; 
+//   font-family: 'Arvo', serif;
+//   color: #363636;
+// }
 
-.page_404  img{ width:100%;}
+// .page_404  img{ width:100%;}
 
-.four_zero_four_bg{
+// .four_zero_four_bg{
  
- background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    height: 450px;
-    background-position: center;
- }
+//  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+//     height: 450px;
+//     background-position: center;
+//  }
  
  
- .four_zero_four_bg h1{
- font-size:70px;
- }
+//  .four_zero_four_bg h1{
+//  font-size:70px;
+//  }
  
-  .four_zero_four_bg h3{
-			 font-size:60px;
-			 }
+//   .four_zero_four_bg h3{
+// 			 font-size:60px;
+// 			 }
 			 
-			 .link_404{			 
-color: #fff;
-    padding: 10px 20px;
-    background: #39ac31;
-    margin: 20px 0;
-    display: inline-block;}
-	.contant_box_404{ margin-top:-50px;}
-  body{
-    background:#fff
-  }
-
-
-
-  @media screen and (max-width: 1000px) {
+// 			 .link_404{			 
+// color: #fff;
+//     padding: 10px 20px;
+//     background: #39ac31;
+//     margin: 20px 0;
+//     display: inline-block;}
+// 	.contant_box_404{ margin-top:-50px;}
  
-    .four_zero_four_bg h1{
-      font-size:50px;
-      }
-      .four_zero_four_bg h3{
-        font-size:30px;
-        }
-    
-    
-    
-    }
 
-  @media screen and (max-width: 500px) {
+
+
+//   @media screen and (max-width: 1000px) {
+ 
+//     // .four_zero_four_bg h1{
+//     //   font-size:50px;
+//     //   }
+//     //   .four_zero_four_bg h3{
+//     //     font-size:30px;
+//     //     }
+    
+    
+    
+//     }
+
+//   @media screen and (max-width: 500px) {
 
  
-.four_zero_four_bg h1{
-  font-size:40px;
-  }
-  .four_zero_four_bg h3{
-    font-size:20px;
-    }
+// // .four_zero_four_bg h1{
+// //   font-size:40px;
+// //   }
+// //   .four_zero_four_bg h3{
+// //     font-size:20px;
+// //     }
 
 
 
-}
+// }
