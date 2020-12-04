@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <footer className='container-fluid black_more'>
+  <footer className='container-fluid black_more' id="contacto">
     <div className='row m-10-hor'>
       <div className='col-md-4'>
         <div className='footer-col'>
@@ -19,12 +19,18 @@ export default () => (
             Contacto:
           </div>
           <div className='content'>
-        
              <div className='link'>iepamadodedios@hotmail.com</div>
-            
+          </div>
+          <div className='heading'>
+            Telefono:
+          </div>
+          <div className='content'>
+             <div className='link'>997 467 002</div>
           </div>
         </div>
+        
       </div>
+      
 
       <div className='col-md-4'>
         <div className='footer-col'>

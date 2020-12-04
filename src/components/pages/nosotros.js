@@ -9,6 +9,10 @@ const ListContainer = posed.div({
   exit: { staggerChildren: 20, staggerDirection: 0 }
 });
 
+const style={
+  textAlign:'center',
+  marginTop:'50px'
+}
 const Item = posed.section({
   enter: { y: 0, opacity: 1 },
   exit: { y: 5, opacity: 0 }
@@ -19,7 +23,7 @@ export default () => (
 <ListContainer>
   <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Ni%C3%B1os-estudiando.webp?alt=media&token=c118c9af-2214-4ced-901c-0f3e9066176f'})`}}>
     <div className='mainbreadcumb'>
-      <div className='container-fluid'>
+      {/* <div className='container-fluid'>
         <div className='row m-10-hor'>
           <div className='col-md-6'>
             <h1>¿Quienes Somos?</h1>
@@ -32,19 +36,37 @@ export default () => (
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </Item>
 
+<div className="subtitlebanner">
+<div className='container-fluid'>
+        <div className='row m-10-hor'>
+          <div className='col-md-6'>
+            <h1>¿Quiénes Somos? </h1>
+          </div>
+          <div className='col-md-6'>
+            <div className='list'>
+              <Link className='link' to="/home"> Inicio </Link>
+              <span className='dash'>/</span>
+              <span> Sobre nosotros</span>
+            </div>
+          </div>
+        </div>
+      </div> 
+</div>
+   
   <Item className='container-fluid black'>
+    
         <div className='row m-10-hor'>
 
         <div className='col-md-5'>
             <div className='subheading'>
-            Bienvenidos a la familia 
+            BIENVENIDOS A LA FAMILIA
             </div>
             <div className='heading'>
-            amadina!
+            AMADINA!
             </div>
             <div className='col-md-10'>
             <img src='https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/insignia-min.webp?alt=media&token=8fc185f6-3835-4e32-95c5-49fe66418f74' alt='imgbanner' className='w-100 border-radius'/>
@@ -142,6 +164,21 @@ export default () => (
 
         </div>
   </section>
+
+<section>
+  <div className="videos">
+  <video width="400" height="auto" controls>
+          <source src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Videos%2Fvideo%20amado%20de%20dios.mp4?alt=media&token=2fe3c72b-827b-4eaa-a2fe-d0be279efc6e" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video> 
+  </div>
+                  <div className='col-md-12 pl-md-5 center' style={style}>
+                  <h4>Ver nuestra galería de fotos</h4>
+                    <div class="btn">
+                    <Link className='link' to="/galeria"> <span>Click aquí</span></Link>
+                    </div>
+                  </div>
+</section>
 
   <Testimony />
   <Footer />

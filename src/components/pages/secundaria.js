@@ -39,7 +39,10 @@ export default () => (
   <ListContainer>
       <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/group-of-school-friends-outdoors-lifestyle-and-aft-PLMN4VW-min.webp?alt=media&token=3569a918-0281-4e6f-90e6-88b3e165cc91'})`}}>
         <div className='homebread'>
-          <div className='container-fluid'>
+         
+        </div>
+      </Item>
+      <div className='container-fluid secciones'>
             <div className='row m-10-hor'>
               <div className='col-md-8 mx-auto text-center '>
                 <div className='heading'>
@@ -51,6 +54,9 @@ export default () => (
                 <div className='content mx-auto'>
                 Nuestra institución es una entidad privada y de enseñanza mixta.
                 </div>
+                <div className='content'>
+                En educación remota, el horario es deacuerdo a las disposiciones del MINEDU.
+                </div>
                    {/**
                *   <div class="btn" onClick={()=> window.open("//google.com", "_blank")}>
                   <span>PROSPECTO INFORMATIVO</span>
@@ -58,10 +64,7 @@ export default () => (
                */}
               </div>
             </div>
-          </div>
-        </div>
-      </Item>
-
+          </div>  
       <section className='container-fluid black_more'>
         <div className='row m-10-hor'>
 
@@ -70,7 +73,7 @@ export default () => (
             CEGNE
             </div>
             <div className='heading'>
-            Amado de Dios
+            AMADO DE DIOS
             </div>
           </div>
 

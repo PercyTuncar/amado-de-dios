@@ -20,12 +20,25 @@ const img1 = {
 const img2 = {
   backgroundImage:'url(https://i.imgur.com/aMLi3Gx.jpg)'
 }
-
+const milagros = {
+  'color':'#FDD377'
+}
+const fundador = {
+  'width':'300px',
+  'padding':'30px'
+}
+const mainfaunder = {
+  'display':'inlineBlock'
+}
 export default () => (
 <ListContainer>
-  <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/utiles-escolaeres.webp?alt=media&token=154d3df9-c27f-4eb5-a720-86f832de6d6c'})`}}>
+  <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Alumnos%2FCOlegio-amado-de-dios-footo.jpg?alt=media&token=d80defff-3605-42c4-80b9-124c2f8546bd'})`}}>
     <div className='mainbreadcumb'>
-      <div className='container-fluid'>
+     
+    </div>
+  </Item>
+
+  <div className='container-fluid'>
         <div className='row m-10-hor'>
           <div className='col-md-6'>
             <h1>Historia</h1>
@@ -39,15 +52,11 @@ export default () => (
           </div>
         </div>
       </div>
-    </div>
-  </Item>
-
-
   <section className='container-fluid'>
         <div className='row m-10-hor'>
 
        
-          <div className='col-md-12 centered'>
+          <div className='col-md-12 centered fotos'>
             <div>
               <div className="subheading">
               Reseña histórica del
@@ -56,7 +65,10 @@ export default () => (
                CEGNE Amado de Dios
               </div>
                 <ul>
-                La I.E.P.” Amado de Dios” es una institución fundada e implementada en 1991, por el promotor y director, sr. Florencio Amado Dávalos Calderón. Tiene como sede dos locales, uno en la Av. Aviación B-6 Juan XXIII, San Borja, donde funciona el nivel secundario y otro en la Av. Aviación B-26 Juan XXIII, San Borja, donde funcionan los niveles de inicial y primaria.
+                <div style={mainfaunder} >
+                <img style={fundador} src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/fundador-amado-de-dios.jpeg?alt=media&token=01532b84-bedf-464e-92c4-ed62f0bf0946" alt="fundador" class="responsive"/> 
+                <img style={fundador} src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/insignia-min.webp?alt=media&token=8fc185f6-3835-4e32-95c5-49fe66418f74" alt="insignia" class="responsive"/> 
+               </div>  La I.E.P.” Amado de Dios” es una institución fundada e implementada en 1991, por el promotor y director, sr. Florencio Amado Dávalos Calderón. Tiene como sede dos locales, uno en la Av. Aviación B-6 Juan XXIII, San Borja, donde funciona el nivel secundario y otro en la Av. Aviación B-26 Juan XXIII, San Borja, donde funcionan los niveles de inicial y primaria.
 <br/>
 <br/>
 La I.E.P. “Amado de Dios” fue autorizada para funcionar por Resolución Ministerial  Nº 000155. 
@@ -79,10 +91,21 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
                */}
             </div>
           </div>
-          
         </div>
     </section>
 
+
+
+<section className="srmilagros">
+               <div>
+                <h1 style={milagros}>  Nuestro Santo Patrón Señor de los Milagros</h1>
+                <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/sdlm%20maado%20de%20dios.jpg?alt=media&token=6c67d3fa-f25d-4827-921c-7e4e1d3e294f" alt="Nature" class="responsive"/> 
+               </div>
+               <div>
+                <h1 style={milagros}>Oración al Señor de los Milagros</h1>
+                <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/WhatsApp%20Image%202020-12-01%20at%205.01.34%20PM.jpeg?alt=media&token=c121d447-bf26-444d-9175-7e236f933fb6" alt="Nature" class="responsive"/> 
+               </div>
+</section>
 
 
   <section className='container-fluid black_more'>
@@ -94,14 +117,14 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/aula-de-clase.webp?alt=media&token=a732ba70-c636-4a0f-8f71-822acf61b15d"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/foto-dos-fundador.jpeg?alt=media&token=048c5779-e7e8-4a51-ba16-ff0fa58ef6f6"
                   className="img-fluid"
                   alt="Imageteam"
                 />
               </div>
               <div className='desc'>
                 <div className='name'>Amado de Dios</div>
-                <div className='title'>Descripoción</div>
+                <div className='title'>Fundador</div>
               </div>
               <div className='icon'>
                  <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>
@@ -120,14 +143,14 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/profesor-en-clase.webp?alt=media&token=695dc88e-8f8a-4770-a156-5b17a915f498"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/directora-colegio-amado-de-dios(1).jpeg?alt=media&token=e8351f66-402e-4f9f-86ba-d56ffccad5a5"
                   className="img-fluid"
                   alt="Imageteam"
                 />
               </div>
               <div className='desc'>
                 <div className='name'>Amado de Dios</div>
-                <div className='title'>Descripoción</div>
+                <div className='title'>Directora</div>
               </div>
               <div className='icon'>
                  <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>
@@ -146,14 +169,14 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/alumnos-en-clases.webp?alt=media&token=9c8fbf2b-3b40-4344-b30a-57f2def51f46"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/foto%20de%201er%20local%20amado%20de%20dios%20colegio.jpg?alt=media&token=aa9ee4d9-dee1-4f5d-83ae-074a378ef1e1"
                   className="img-fluid"
                   alt="Imageteam"
                 />
               </div>
               <div className='desc'>
                 <div className='name'>Amado de Dios</div>
-                <div className='title'>Descripoción</div>
+                <div className='title'>Av Aviación Mz B Lt 26 Urb Papa Juan XXIII San Borja</div>
               </div>
               <div className='icon'>
                  <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>
@@ -172,14 +195,14 @@ Todo esto, sin dejar de lado una formación integral que fortalezca los aprendiz
               <div className='itm'>
               <div className='bg'>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/alumnos-ciencia.webp?alt=media&token=c0438200-9398-4e29-8cf2-514120bb099e"
+                  src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/foto%20del%202do%20local%20amado%20de%20dios%20colegio.jpg?alt=media&token=c8cc5a8f-40d6-4132-9057-a7744de96733"
                   className="img-fluid"
                   alt="Imageteam"
                 />
               </div>
               <div className='desc'>
                 <div className='name'>Amado de Dios</div>
-                <div className='title'>Descripoción</div>
+                <div className='title'>Av Aviación Mz B Lt 6 Urb Papa Juan XXIII San Borja</div>
               </div>
               <div className='icon'>
                  <span onClick={()=> window.open("//facebook.com/ColegioAmadoDeDios", "_blank")}>

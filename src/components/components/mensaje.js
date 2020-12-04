@@ -23,7 +23,7 @@ export default () => (
         <div className='row m-10-hor'>
 
           <div className="col-md-6 px-0">
-            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Mujer-speaker.webp?alt=media&token=b77a4f3f-cc1d-4157-a690-21ee1f9fe2ca" className="imgslickz" alt="#"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/directora-colegio-amado-de-dios(1).jpeg?alt=media&token=e8351f66-402e-4f9f-86ba-d56ffccad5a5" className="imgslickz" alt="#"/>
           </div>
 
 

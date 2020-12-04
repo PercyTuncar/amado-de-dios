@@ -67,7 +67,7 @@ export default function() {
           <div className='logo'>
               <div className='navbar-title navbar-item'>
                 <NavLink to="/">
-                 <span className='amado'>Amado <span className='de'>de</span> <span className='dios'>Dios</span></span>
+                 <span className='amado'>AMADO DE <span className='dios'>DIOS       </span></span>
                 
                 </NavLink>
               </div>

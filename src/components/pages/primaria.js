@@ -37,7 +37,12 @@ export default () => (
   <ListContainer>
       <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Profesor-en-clases.webp?alt=media&token=e8e21434-803a-42c3-b90d-b0fa5ef777a4'})`}}>
         <div className='homebread'>
-          <div className='container-fluid'>
+     
+        </div>
+      </Item>
+
+
+      <div className='container-fluid secciones'>
             <div className='row m-10-hor'>
               <div className='col-md-8 mr-auto '>
                 <div className='heading'>
@@ -49,6 +54,9 @@ export default () => (
                 <div className='content'>
                 Nuestra institución es una entidad privada y de enseñanza mixta.
                 </div>
+                <div className='content'>
+                En educación remota, el horario es deacuerdo a las disposiciones del MINEDU.
+                </div>
               {/**
                *   <div class="btn" onClick={()=> window.open("//google.com", "_blank")}>
                   <span>PROSPECTO INFORMATIVO</span>
@@ -57,9 +65,6 @@ export default () => (
               </div>
             </div>
           </div>
-        </div>
-      </Item>
-
       <section className='container-fluid black_more'>
         <div className='row m-10-hor'>
 
@@ -68,7 +73,7 @@ export default () => (
             CEGNE
             </div>
             <div className='heading'>
-            Amado de Dios
+            AMADO DE DIOS
             </div>
           </div>
 
@@ -186,7 +191,7 @@ export default () => (
             <div>
               <div className="subheading">Nuestros</div>
               <div className="heading">
-              Talleres y servicios  
+              Talleres y servicios  (2do - 6to)
               </div> 
               <ul>
                 <li>Talleres: Pintura, Manualidades, Teatro y Oratoria (2021)</li>

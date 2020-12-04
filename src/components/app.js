@@ -10,7 +10,7 @@ import Home2 from './pages/secundaria';
 import About from './pages/nosotros';
 import Team from './pages/historia';
 import Price from './pages/valores';
-import Portofolio from './pages/portofolio';
+import Portofolio from './pages/galeria';
 import Contact from './pages/librodereclamaciones';
 import Error from './pages/error';
 
@@ -40,9 +40,7 @@ const PosedRouter = ({ children }) => (
 
 export default () => (
   <div className="wraper">
- 
-
-<Header/>
+  <Header/>
       <PosedRouter>
       <ScrollTop path="/">
         <Home exact path="/">
@@ -54,13 +52,16 @@ export default () => (
         <About path="/nosotros" />
         <Team path="/historia" />
         <Price path="/valores" />
-        <Portofolio path="/portofolio" />
+        <Portofolio path="/galeria" />
         <Contact path="/librodereclamaciones" />
         </ScrollTop>
       </PosedRouter>
     <ScrollToTopBtn />
+  {
+   /*
+ 
+<Error/>
   
-  {/* <Error/>*/}
-  
+   */}
   </div>
 );

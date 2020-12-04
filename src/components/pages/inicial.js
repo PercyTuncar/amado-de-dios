@@ -27,9 +27,14 @@ const Mailto = ({ email, subject = '', body = '', children }) => {
 
 export default () => (
   <ListContainer>
-      <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Ni%C3%B1os-levantando-la-mano%202.webp?alt=media&token=47bd1c17-08f7-4832-9451-0e53dc7b5455'})`}}>
+      <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/inicial-min.jpg?alt=media&token=deb264ef-515c-463f-9907-260138017ee1'})`}}>
         <div className='homebread'>
-          <div className='container-fluid'>
+        
+        </div>
+      </Item>
+
+
+      <div className='container-fluid secciones'>
             <div className='row m-10-hor'>
               <div className='col-md-8 mr-auto '>
                 <div className='heading'>
@@ -41,6 +46,9 @@ export default () => (
                 <div className='content'>
                 Nuestra institución es una entidad privada y de enseñanza mixta.
                 </div>
+                <div className='content'>
+                En educación remota, el horario es deacuerdo a las disposiciones del MINEDU.
+                </div>
                     {/**
                *   <div class="btn" onClick={()=> window.open("//google.com", "_blank")}>
                   <span>PROSPECTO INFORMATIVO</span>
@@ -49,8 +57,6 @@ export default () => (
               </div>
             </div>
           </div>
-        </div>
-      </Item>
 
       <section className='container-fluid black_more'>
         <div className='row m-10-hor'>
@@ -60,7 +66,7 @@ export default () => (
             CEGNE
             </div>
             <div className='heading'>
-            Amado de Dios
+            AMADO DE DIOS
             </div>
           </div>
 
@@ -122,7 +128,6 @@ export default () => (
                 <li>Círculo de estudio</li>
                 <li>Taekwondo</li>
                 <li>Danzas folklóricas</li>
-                <li>Francés</li>
               </ul>
             { /* <Link className='btn' to="">
                 <span>Más información</span>

@@ -4,7 +4,7 @@ import 'react-animated-slider/build/horizontal.css';
 
 const content = [
   {
-    title: "Bienvenidos a la familia amadina!",
+    title: "Bienvenidos a la familia Amadina!",
     description:
       "Somos una institución educativa con 29 años de experiencia brindando un Servicio Educativo que promueve el desarrollo integral y pleno de nuestros estudiantes",
     image: "https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Ni%C3%B1os-levantando-la-mano%202.webp?alt=media&token=47bd1c17-08f7-4832-9451-0e53dc7b5455"
@@ -43,6 +43,7 @@ export default () => (
                      </span>
                    </button> 
                */ }
+     
                 </div>
               </div>
             ))}

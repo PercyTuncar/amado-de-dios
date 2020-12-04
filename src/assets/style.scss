@@ -430,14 +430,15 @@ section{
 .slide{
   background-size: cover !important;
 }
+// combio
 .slide::before {
     content: '';
     display: block;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
-    background: rgba(0,0,0,.6);
+    // background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
+    // background: rgba(0,0,0,.6);
     bottom: 0;
     left: 0;
 }
@@ -680,7 +681,7 @@ section{
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
-/* breadcumb */
+/* breadcumb  cambio*/
 .breadcumb{
   border-radius: 0;
   margin: 0;
@@ -688,6 +689,8 @@ section{
   background-size: cover;
   width: 100%;
   position: relative;
+  margin-bottom: 40px;
+  height: 550px;
   &::before{
     content: '';
     width: 100%;
@@ -695,15 +698,19 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to bottom, $black, $color);
+    // background: linear-gradient(to bottom, $black, $color);
     opacity: .6;
   }
+
   .mainbreadcumb{
+    
     padding: 320px 0 30px;
     h1{
       margin-bottom: 0;
       line-height: 1;
+     
     }
+
     .list{
       position: relative;
       bottom: -20px;
@@ -1045,7 +1052,7 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to left, $color, $color_more);
+    background: linear-gradient(to left, #a22631, #7a111a);
     opacity: .95;
   }
 }
@@ -1509,33 +1516,115 @@ footer{
 //     margin: 20px 0;
 //     display: inline-block;}
 // 	.contant_box_404{ margin-top:-50px;}
- 
+//   body{
+//     background:#fff
+//   }
 
 
 
 //   @media screen and (max-width: 1000px) {
  
-//     // .four_zero_four_bg h1{
-//     //   font-size:50px;
-//     //   }
-//     //   .four_zero_four_bg h3{
-//     //     font-size:30px;
-//     //     }
-    
-    
-    
+//     .four_zero_four_bg h1{
+//       font-size:50px;
+//       }
+//       .four_zero_four_bg h3{
+//         font-size:30px;
+//         }
 //     }
 
 //   @media screen and (max-width: 500px) {
-
- 
-// // .four_zero_four_bg h1{
-// //   font-size:40px;
-// //   }
-// //   .four_zero_four_bg h3{
-// //     font-size:20px;
-// //     }
-
-
-
+// .four_zero_four_bg h1{
+//   font-size:40px;
+//   }
+//   .four_zero_four_bg h3{
+//     font-size:20px;
+//     }
 // }
+
+
+
+.stats-asset {
+  padding-top: 40px;
+padding-right: 66px;
+padding-bottom:20px;
+padding-left: 66px;
+
+  text-align: center;
+}
+.stats-item-counter{
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0;
+  color: #ffffff;
+}
+.stats-subject{
+  font-family: "Frank Ruhl Libre","Times New Roman",Times,serif;
+font-weight: 700;
+display: block;
+opacity: 0.9;
+filter: alpha(opacity=90);
+margin-bottom: 11px;
+}
+
+.stats-description{
+  display: block;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  font-size: 13px;
+}
+.acm-stats ul{
+  list-style: none;
+}
+
+
+@media (max-height: 700px) {
+  .acm-stats{
+    background: #a22631;
+  color: #ffffff;
+  width: 100%
+  }
+}
+
+
+.style-1 a{
+  color: #fff;
+}
+
+.srmilagros{
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+.srmilagros img{
+ margin-top: 10px;
+}
+.srmilagros h1  span{
+  font-size: 20px;
+ }
+
+
+
+.tarjeta .card-body{
+  background: #7a111a;
+}
+.tarjeta .btn:hover{
+  background: #7a111a;
+}
+.treinta img{
+  display:block;
+margin:auto;
+margin-top: 50px;
+}
+
+.videos{
+  text-align: center;
+}
+
+.videos video{
+  border: none;
+margin: 20px;
+}
+
+.fotos ul{
+  display: flex;
+}

@@ -42,11 +42,18 @@ export default () => (
                               readMoreText="haga clic aquí para leer más..."/>
                 </div>
           </div>
-          <Objetive/>
 
+          <div className="treinta"> 
+            <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/21.jpg?alt=media&token=03fa9b20-28b7-4e13-aedf-875fe1524373"/>
+          </div>
+          <Objetive/>
+        
     <Bannercontact/>
+  
     <Pricing />
+   
     <Testimony />
+    
     <Footer />
 
   </ListContainer>

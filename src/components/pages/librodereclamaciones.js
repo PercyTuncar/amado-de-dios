@@ -123,7 +123,10 @@ export default () => {
     <ListContainer>
       <Item className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Profesor-en-clases.webp?alt=media&token=e8e21434-803a-42c3-b90d-b0fa5ef777a4'})`}}>
         <div className='mainbreadcumb'>
-          <div className='container-fluid'>
+        
+        </div>
+      </Item>
+      <div className='container-fluid'>
             <div className='row m-10-hor'>
               <div className='col-md-6'>
                 <h1>Libro de reclamaciones</h1>
@@ -137,15 +140,12 @@ export default () => {
               </div>
             </div>
           </div>
-        </div>
-      </Item>
-
       <Item className='container-fluid'>
         <div className='row m-10-hor'>
 
           <div className='col-md-6'>
             <div className="form-side">
-              <h2>Inicial y primaria</h2>
+              <h2>INICIAL y PRIMARIA</h2>
               <p>Av Aviación Mz B Lt 26 Urb Papa Juan XXIII San Borja</p>
               <ul>
                 <li>RD de funcionamiento nivel Inicial N° 000482</li>
@@ -159,8 +159,8 @@ export default () => {
 
           <div className='col-md-6 pl-md-5'>
           <div className="form-side">
-              <h2>Secundaria</h2>
-              <p>Av Aviación Mz B Lt 26 Urb Papa Juan XXIII San Borja</p>
+              <h2>SECUNDARIA</h2>
+              <p>Av Aviación Mz B Lt 6 Urb Papa Juan XXIII San Borja</p>
               <ul>
                 <li>RD de funcionamiento nivel Secundaria N° 00155</li>
               </ul>

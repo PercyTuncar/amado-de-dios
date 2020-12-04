@@ -8,7 +8,12 @@ export default () => (
 <div>
   <section className='jumbotron breadcumb' style={{backgroundImage: `url(${'https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/graduacion-de-colegio.webp?alt=media&token=232a3f70-f568-40b2-a687-bc9367cf0f80'})`}}>
     <div className='mainbreadcumb'>
-      <div className='container-fluid'>
+    
+    </div>
+  </section>
+
+
+  <div className='container-fluid'>
         <div className='row m-10-hor'>
           <div className='col-md-6'>
             <h1>Nuestros valores</h1>
@@ -22,11 +27,6 @@ export default () => (
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-
-
   <section className='container-fluid black_more'>
         <div className='row m-10-hor'>
 
