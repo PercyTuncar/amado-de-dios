@@ -167,7 +167,7 @@ export default () => (
 
 <section>
   <div className="videos">
-  <video width="400" height="auto" controls>
+  <video width="550" height="auto" controls>
           <source src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Videos%2Fvideo%20amado%20de%20dios.mp4?alt=media&token=2fe3c72b-827b-4eaa-a2fe-d0be279efc6e" type="video/mp4"/>
             Your browser does not support the video tag.
           </video> 
